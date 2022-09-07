@@ -1,0 +1,6 @@
+framework module Pods_Viajando_ViajandoUITests {
+  umbrella header "Pods-Viajando-ViajandoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
