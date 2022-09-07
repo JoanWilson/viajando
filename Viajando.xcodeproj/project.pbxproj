@@ -12,7 +12,6 @@
 		85AE92B428C82F010084C115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE92B328C82F010084C115 /* AppDelegate.swift */; };
 		85AE92B628C82F010084C115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE92B528C82F010084C115 /* SceneDelegate.swift */; };
 		85AE92B828C82F010084C115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE92B728C82F010084C115 /* ViewController.swift */; };
-		85AE92BB28C82F010084C115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AE92B928C82F010084C115 /* Main.storyboard */; };
 		85AE92BD28C82F020084C115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85AE92BC28C82F020084C115 /* Assets.xcassets */; };
 		85AE92C028C82F020084C115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AE92BE28C82F020084C115 /* LaunchScreen.storyboard */; };
 		85AE92CB28C82F020084C115 /* ViajandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE92CA28C82F020084C115 /* ViajandoTests.swift */; };
@@ -49,7 +48,6 @@
 		85AE92B328C82F010084C115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85AE92B528C82F010084C115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		85AE92B728C82F010084C115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85AE92BA28C82F010084C115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85AE92BC28C82F020084C115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85AE92BF28C82F020084C115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85AE92C128C82F020084C115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				85AE92B328C82F010084C115 /* AppDelegate.swift */,
 				85AE92B528C82F010084C115 /* SceneDelegate.swift */,
 				85AE92B728C82F010084C115 /* ViewController.swift */,
-				85AE92B928C82F010084C115 /* Main.storyboard */,
 				85AE92BC28C82F020084C115 /* Assets.xcassets */,
 				85AE92BE28C82F020084C115 /* LaunchScreen.storyboard */,
 				85AE92C128C82F020084C115 /* Info.plist */,
@@ -164,7 +161,6 @@
 				7AA1E3D5E0AD7EE27533A205 /* Pods-ViajandoTests.debug.xcconfig */,
 				57FAE8FE79688F9111F9CF42 /* Pods-ViajandoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +175,8 @@
 				85AE92AC28C82F010084C115 /* Sources */,
 				85AE92AD28C82F010084C115 /* Frameworks */,
 				85AE92AE28C82F010084C115 /* Resources */,
+				5730DA2B68336183D346599D /* [CP] Embed Pods Frameworks */,
+				85AE92E328C831F90084C115 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -216,6 +214,7 @@
 				85AE92CC28C82F020084C115 /* Sources */,
 				85AE92CD28C82F020084C115 /* Frameworks */,
 				85AE92CE28C82F020084C115 /* Resources */,
+				9D372A3A078E659B3B58CB3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,7 +276,6 @@
 			files = (
 				85AE92C028C82F020084C115 /* LaunchScreen.storyboard in Resources */,
 				85AE92BD28C82F020084C115 /* Assets.xcassets in Resources */,
-				85AE92BB28C82F010084C115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +318,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5730DA2B68336183D346599D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viajando/Pods-Viajando-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viajando/Pods-Viajando-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viajando/Pods-Viajando-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		606DC69287FD7240EF0C3AE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +355,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AE92E328C831F90084C115 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9D372A3A078E659B3B58CB3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D39D52C9EC66CEDCF282C2A7 /* [CP] Check Pods Manifest.lock */ = {
@@ -410,14 +459,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85AE92B928C82F010084C115 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85AE92BA28C82F010084C115 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85AE92BE28C82F020084C115 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -556,7 +597,6 @@
 				INFOPLIST_FILE = Viajando/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,7 +625,6 @@
 				INFOPLIST_FILE = Viajando/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

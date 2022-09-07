@@ -7,6 +7,8 @@ target 'Viajando' do
 
   # Pods for Viajando
 
+  pod 'HorizontalCalendar'
+  
   target 'ViajandoTests' do
     inherit! :search_paths
     # Pods for testing

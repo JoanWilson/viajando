@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: aaeef2cbb3f1d2260f75c92157e51ca243839e2d
+PODS:
+  - HorizontalCalendar (0.0.1)
+
+DEPENDENCIES:
+  - HorizontalCalendar
+
+SPEC REPOS:
+  trunk:
+    - HorizontalCalendar
+
+SPEC CHECKSUMS:
+  HorizontalCalendar: 264ae0d6b162890d637db90db3a618fc14587a69
+
+PODFILE CHECKSUM: 16da02978a69aa27baa61a2d9127abfda059329d
 
 COCOAPODS: 1.11.3

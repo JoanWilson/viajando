@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B8CF5E9D89BAE201C09C3DAD63A3E9 /* Pods-ViajandoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC32959C97EC72B0A2731AE2AF4EAE /* Pods-ViajandoTests-dummy.m */; };
-		19497326210AA3A73C541D64E3D92A4E /* Pods-Viajando-ViajandoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B01DC0B026D66B5A18A9BE7502060 /* Pods-Viajando-ViajandoUITests-dummy.m */; };
-		1A5D5490F59204D7CE3853F89228C1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		04B8CF5E9D89BAE201C09C3DAD63A3E9 /* Pods-ViajandoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BAFD0DCAA05E84FEF1A876B10AB8ED /* Pods-ViajandoTests-dummy.m */; };
+		0C26462A2C05F524EC2FC036F40FDDFF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020439E1E4F3A5A103B58B304F77F9F /* UIView+Extension.swift */; };
+		1BF36747683DF7B614FE627D61F1F579 /* Pods-Viajando-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B08CA512472DD108BEF1941E791CD2B8 /* Pods-Viajando-dummy.m */; };
+		2118D3CB98DD8668F1EF33B9083037E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C5D4FD3056C2B6944F6D1632B9620C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4A23F36F7CC6E60AE13219D2B8877F5B /* Pods-Viajando-ViajandoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC35E1CA616BCAA0FE38BA32BA000A9 /* Pods-Viajando-ViajandoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C3996C3CDAF737B9E5EF989060A8826 /* Pods-Viajando-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A009FAA7943663944E56F04EE034CB57 /* Pods-Viajando-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D274E5AC072B5E7055E04DBBC4D4F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B40CAAC9E3A856386171E464CD90C2BF /* Pods-Viajando-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605156F407A5987A9957D69DEF9AB54C /* Pods-Viajando-dummy.m */; };
-		F1573118D593968593ED66E5F31B24EC /* Pods-ViajandoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CABB050DD45B6D696C98666181B7C9F /* Pods-ViajandoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42530E5867EA0469CC4B0038766C274D /* Pods-Viajando-ViajandoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB77B00D87D5FEE1E6163C27C912DF0 /* Pods-Viajando-ViajandoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724C849F0A2FF918C8203E27D201B211 /* HorizontalCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97E18AE4B07521824F2AC5D7ECBFB55 /* HorizontalCalendar-dummy.m */; };
+		7345433EC136A949D5EA302EEFD86E62 /* Pods-Viajando-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A6B3965148779DB8CF6302B4B58E99 /* Pods-Viajando-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942AF1B538EF26DAD3C6E7C23AE6F506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C67DC0C3CD34FDA006D57022EFB3E78 /* HorizontalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C583F5219EE72F641CCEEEA1511FA0 /* HorizontalCalendar.swift */; };
+		A13CC639BB15533C3663F66D4AE30438 /* Pods-Viajando-ViajandoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4780F09C6DE17E8247271DF0C739CFB3 /* Pods-Viajando-ViajandoUITests-dummy.m */; };
+		B3EEF52D610219736D7A5A41463E0453 /* HorizontalCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B2ABEDC7AED4CE558E8A3AFCA8762A /* HorizontalCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC95D3CDF85CD2AEAC434A2DEEFABDC /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F40BE305B6167403FF5F557E25CBB /* Date+Extension.swift */; };
+		C287880CD8A878BF56225D1B505E88D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F1573118D593968593ED66E5F31B24EC /* Pods-ViajandoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE8EDEB6649B9B9FA13994B11B2A118 /* Pods-ViajandoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		802592750712CD617BC4DCDD29ED73CE /* PBXContainerItemProxy */ = {
+		32CD827AAA1210F41D2BAF65721B8FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2158B2189AB84ABBBE2381FBBF859B26;
+			remoteInfo = HorizontalCalendar;
+		};
+		7D6F8336D9EE324D91A04E61E710552A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2158B2189AB84ABBBE2381FBBF859B26;
+			remoteInfo = HorizontalCalendar;
+		};
+		F467C433EAECBD0BEDA451C4CE8012A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,43 +49,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		077EFFD4E5B42F028893D348785703E0 /* Pods-ViajandoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViajandoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		16D75D731486E84A92FCD0F6B2672D00 /* Pods-Viajando-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-acknowledgements.plist"; sourceTree = "<group>"; };
-		281B01DC0B026D66B5A18A9BE7502060 /* Pods-Viajando-ViajandoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viajando-ViajandoUITests-dummy.m"; sourceTree = "<group>"; };
-		2CABB050DD45B6D696C98666181B7C9F /* Pods-ViajandoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViajandoTests-umbrella.h"; sourceTree = "<group>"; };
-		32DD08692FF4F6119731E9A07253CF05 /* Pods-Viajando-ViajandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando-ViajandoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		35365F9C71B00A24CAB612C2B0759B12 /* Pods-Viajando-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-Info.plist"; sourceTree = "<group>"; };
-		4022E3440E83CCF94821C1785266AC25 /* Pods-Viajando-ViajandoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-ViajandoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		064F1FEC294C68B9D0458CE8EBC34DC6 /* HorizontalCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalCalendar.modulemap; sourceTree = "<group>"; };
+		07E1B820DC7BA5CFD4EC1FC6CA544596 /* Pods-Viajando-ViajandoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viajando-ViajandoUITests.modulemap"; sourceTree = "<group>"; };
+		0C3F7014D00712221DE63EE94AAA63EE /* Pods-Viajando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando.debug.xcconfig"; sourceTree = "<group>"; };
+		19F1A395398CA80D83E5BFB3AEFF506B /* Pods-Viajando-ViajandoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando-ViajandoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2020439E1E4F3A5A103B58B304F77F9F /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "HorizontalCalendar/UIView+Extension.swift"; sourceTree = "<group>"; };
+		2B7940C88921B406FF57654EEFB5C42C /* Pods-Viajando-ViajandoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-ViajandoUITests-Info.plist"; sourceTree = "<group>"; };
+		442F488BE5F81FAD1B5FB52ECB78521A /* Pods-ViajandoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViajandoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4780F09C6DE17E8247271DF0C739CFB3 /* Pods-Viajando-ViajandoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viajando-ViajandoUITests-dummy.m"; sourceTree = "<group>"; };
+		48B2ABEDC7AED4CE558E8A3AFCA8762A /* HorizontalCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalCalendar-umbrella.h"; sourceTree = "<group>"; };
+		48C583F5219EE72F641CCEEEA1511FA0 /* HorizontalCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalCalendar.swift; path = HorizontalCalendar/HorizontalCalendar.swift; sourceTree = "<group>"; };
+		529F5D17590F697CF842CB44D6EBA419 /* Pods-Viajando-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-Info.plist"; sourceTree = "<group>"; };
+		57CFAEEABF6B38C117A48356F4430F7D /* Pods-Viajando-ViajandoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Viajando-ViajandoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5D3425C7C7A5B49C81FC7CAAF129C3EB /* HorizontalCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalCalendar.debug.xcconfig; sourceTree = "<group>"; };
 		5FC8AE0A4B138B11EFB6F06F8781BCC2 /* Pods-Viajando-ViajandoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Viajando-ViajandoUITests"; path = Pods_Viajando_ViajandoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		605156F407A5987A9957D69DEF9AB54C /* Pods-Viajando-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viajando-dummy.m"; sourceTree = "<group>"; };
-		67B90838F74A098506E4AF8573D8915E /* Pods-Viajando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando.debug.xcconfig"; sourceTree = "<group>"; };
+		6C3D782AD6A03DCA7DD15C809F279537 /* HorizontalCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HorizontalCalendar-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		784AFD25EFBFD5CE30418870010AEF96 /* Pods-Viajando */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Viajando"; path = Pods_Viajando.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79BBF68ACB89A5140589665CA291435D /* Pods-ViajandoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViajandoTests-Info.plist"; sourceTree = "<group>"; };
-		7D9AFD0AE69EE003B7739F48DB29B3D5 /* Pods-Viajando-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viajando-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85AF220E76CB2970E2099BAE8F616497 /* Pods-Viajando-ViajandoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando-ViajandoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		87B78CA262D1FD58650247065E357E62 /* Pods-Viajando-ViajandoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viajando-ViajandoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DC281456389D811D55FD19ED64FD478 /* Pods-ViajandoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViajandoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		896689096632D81ED54B30FBEDE6DF8E /* Pods-Viajando-ViajandoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viajando-ViajandoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9021A40B6A4F80CB4544C87248E00DC5 /* Pods-ViajandoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViajandoTests"; path = Pods_ViajandoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		942385A89EC369CBC0E7D2F5A2AA0AAB /* Pods-Viajando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando.release.xcconfig"; sourceTree = "<group>"; };
-		978D64C485189BEB4328064C24F7488C /* Pods-ViajandoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViajandoTests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A009FAA7943663944E56F04EE034CB57 /* Pods-Viajando-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viajando-umbrella.h"; sourceTree = "<group>"; };
-		ACDF2986113A16716AD80E45454921C9 /* Pods-ViajandoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViajandoTests.release.xcconfig"; sourceTree = "<group>"; };
-		B04031F4A60FAA21380E4FF37F33BFC8 /* Pods-Viajando.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viajando.modulemap"; sourceTree = "<group>"; };
-		B3EC32959C97EC72B0A2731AE2AF4EAE /* Pods-ViajandoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViajandoTests-dummy.m"; sourceTree = "<group>"; };
-		C1F03F129D12DEBD4C431197BE660B66 /* Pods-ViajandoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViajandoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C5371CC415247164C481A2BF63ED08DE /* Pods-Viajando-ViajandoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viajando-ViajandoUITests.modulemap"; sourceTree = "<group>"; };
-		CA3A71B359781D6DFC9560AA80F27BC5 /* Pods-ViajandoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViajandoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEC35E1CA616BCAA0FE38BA32BA000A9 /* Pods-Viajando-ViajandoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viajando-ViajandoUITests-umbrella.h"; sourceTree = "<group>"; };
-		EEAB7C764D8BF094B39C1F6B59EBD8B8 /* Pods-Viajando-ViajandoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-ViajandoUITests-Info.plist"; sourceTree = "<group>"; };
+		916826EB77264A041C3731CCCA399FB7 /* HorizontalCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962DF09D7A541DE9864A261231017C21 /* Pods-ViajandoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViajandoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97949379DB432919368D82DAFCD0AE77 /* Pods-ViajandoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViajandoTests.modulemap"; sourceTree = "<group>"; };
+		99D388513E67C4218D77FEDFC641988B /* Pods-ViajandoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViajandoTests-Info.plist"; sourceTree = "<group>"; };
+		9CB77B00D87D5FEE1E6163C27C912DF0 /* Pods-Viajando-ViajandoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viajando-ViajandoUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B08CA512472DD108BEF1941E791CD2B8 /* Pods-Viajando-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viajando-dummy.m"; sourceTree = "<group>"; };
+		B97E18AE4B07521824F2AC5D7ECBFB55 /* HorizontalCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalCalendar-dummy.m"; sourceTree = "<group>"; };
+		BC3A3648C64E9C986765537863FB9630 /* Pods-Viajando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando.release.xcconfig"; sourceTree = "<group>"; };
+		C34D8E4F7DA73BB82C1A01567FE33735 /* HorizontalCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalCalendar.release.xcconfig; sourceTree = "<group>"; };
+		C51F0C9DA00217308BBA42ABCF1F4CA7 /* HorizontalCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalCalendar-prefix.pch"; sourceTree = "<group>"; };
+		C8DA5C29EE3DF0FCABE7F93FE8819527 /* Pods-ViajandoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViajandoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CABD86647F89CE74DBD75A3F81D6A68E /* Pods-Viajando-ViajandoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-ViajandoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAE8EDEB6649B9B9FA13994B11B2A118 /* Pods-ViajandoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViajandoTests-umbrella.h"; sourceTree = "<group>"; };
+		D97C39D7C840F5774C3615CA231F23ED /* Pods-Viajando-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viajando-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC8787E4FA1AE9CE2418016D5C0CF206 /* Pods-Viajando-ViajandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viajando-ViajandoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE3F40BE305B6167403FF5F557E25CBB /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "HorizontalCalendar/Date+Extension.swift"; sourceTree = "<group>"; };
+		E5A6B3965148779DB8CF6302B4B58E99 /* Pods-Viajando-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viajando-umbrella.h"; sourceTree = "<group>"; };
+		EFB485FFC0FA725294295E0C8D010C8F /* Pods-Viajando.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viajando.modulemap"; sourceTree = "<group>"; };
+		F3BAFD0DCAA05E84FEF1A876B10AB8ED /* Pods-ViajandoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViajandoTests-dummy.m"; sourceTree = "<group>"; };
+		FF0C9B392F44839D001A8BA9E19F8564 /* Pods-Viajando-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viajando-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF8665B368C789B4F5E7F95C43268056 /* Pods-Viajando-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Viajando-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78C0091646566F194121AEB6B1D42ADD /* Frameworks */ = {
+		0A80908711002E1EB1976919D623D816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5D5490F59204D7CE3853F89228C1A5 /* Foundation.framework in Frameworks */,
+				2118D3CB98DD8668F1EF33B9083037E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804CE99908F41E353D75BDE8C6FFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942AF1B538EF26DAD3C6E7C23AE6F506 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92849B0A859536FD09645D318BD715D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C287880CD8A878BF56225D1B505E88D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,47 +126,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6950F0B1067E02B38B5185EFF62212E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D274E5AC072B5E7055E04DBBC4D4F40 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		191F96B7DBE54CE16844660C736D58E0 /* Pods-Viajando-ViajandoUITests */ = {
+		0D00DC41EA8D30AE0DC70BE99CC92041 /* HorizontalCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				C5371CC415247164C481A2BF63ED08DE /* Pods-Viajando-ViajandoUITests.modulemap */,
-				87B78CA262D1FD58650247065E357E62 /* Pods-Viajando-ViajandoUITests-acknowledgements.markdown */,
-				4022E3440E83CCF94821C1785266AC25 /* Pods-Viajando-ViajandoUITests-acknowledgements.plist */,
-				281B01DC0B026D66B5A18A9BE7502060 /* Pods-Viajando-ViajandoUITests-dummy.m */,
-				EEAB7C764D8BF094B39C1F6B59EBD8B8 /* Pods-Viajando-ViajandoUITests-Info.plist */,
-				CEC35E1CA616BCAA0FE38BA32BA000A9 /* Pods-Viajando-ViajandoUITests-umbrella.h */,
-				85AF220E76CB2970E2099BAE8F616497 /* Pods-Viajando-ViajandoUITests.debug.xcconfig */,
-				32DD08692FF4F6119731E9A07253CF05 /* Pods-Viajando-ViajandoUITests.release.xcconfig */,
+				DE3F40BE305B6167403FF5F557E25CBB /* Date+Extension.swift */,
+				48C583F5219EE72F641CCEEEA1511FA0 /* HorizontalCalendar.swift */,
+				2020439E1E4F3A5A103B58B304F77F9F /* UIView+Extension.swift */,
+				CC01AB9E722282DD34B26E054276C159 /* Support Files */,
 			);
-			name = "Pods-Viajando-ViajandoUITests";
-			path = "Target Support Files/Pods-Viajando-ViajandoUITests";
-			sourceTree = "<group>";
-		};
-		4F6292E1D814B1B52D858B8CD3E3E96B /* Pods-ViajandoTests */ = {
-			isa = PBXGroup;
-			children = (
-				978D64C485189BEB4328064C24F7488C /* Pods-ViajandoTests.modulemap */,
-				C1F03F129D12DEBD4C431197BE660B66 /* Pods-ViajandoTests-acknowledgements.markdown */,
-				077EFFD4E5B42F028893D348785703E0 /* Pods-ViajandoTests-acknowledgements.plist */,
-				B3EC32959C97EC72B0A2731AE2AF4EAE /* Pods-ViajandoTests-dummy.m */,
-				79BBF68ACB89A5140589665CA291435D /* Pods-ViajandoTests-Info.plist */,
-				2CABB050DD45B6D696C98666181B7C9F /* Pods-ViajandoTests-umbrella.h */,
-				CA3A71B359781D6DFC9560AA80F27BC5 /* Pods-ViajandoTests.debug.xcconfig */,
-				ACDF2986113A16716AD80E45454921C9 /* Pods-ViajandoTests.release.xcconfig */,
-			);
-			name = "Pods-ViajandoTests";
-			path = "Target Support Files/Pods-ViajandoTests";
+			path = HorizontalCalendar;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -128,25 +148,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A15BF8BBD7B0C130DC1463CAAABA9C6 /* Pods-Viajando */ = {
+		834BC222C8128F33763229F25AE93A11 /* Pods-Viajando-ViajandoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B04031F4A60FAA21380E4FF37F33BFC8 /* Pods-Viajando.modulemap */,
-				7D9AFD0AE69EE003B7739F48DB29B3D5 /* Pods-Viajando-acknowledgements.markdown */,
-				16D75D731486E84A92FCD0F6B2672D00 /* Pods-Viajando-acknowledgements.plist */,
-				605156F407A5987A9957D69DEF9AB54C /* Pods-Viajando-dummy.m */,
-				35365F9C71B00A24CAB612C2B0759B12 /* Pods-Viajando-Info.plist */,
-				A009FAA7943663944E56F04EE034CB57 /* Pods-Viajando-umbrella.h */,
-				67B90838F74A098506E4AF8573D8915E /* Pods-Viajando.debug.xcconfig */,
-				942385A89EC369CBC0E7D2F5A2AA0AAB /* Pods-Viajando.release.xcconfig */,
+				07E1B820DC7BA5CFD4EC1FC6CA544596 /* Pods-Viajando-ViajandoUITests.modulemap */,
+				896689096632D81ED54B30FBEDE6DF8E /* Pods-Viajando-ViajandoUITests-acknowledgements.markdown */,
+				CABD86647F89CE74DBD75A3F81D6A68E /* Pods-Viajando-ViajandoUITests-acknowledgements.plist */,
+				4780F09C6DE17E8247271DF0C739CFB3 /* Pods-Viajando-ViajandoUITests-dummy.m */,
+				57CFAEEABF6B38C117A48356F4430F7D /* Pods-Viajando-ViajandoUITests-frameworks.sh */,
+				2B7940C88921B406FF57654EEFB5C42C /* Pods-Viajando-ViajandoUITests-Info.plist */,
+				9CB77B00D87D5FEE1E6163C27C912DF0 /* Pods-Viajando-ViajandoUITests-umbrella.h */,
+				19F1A395398CA80D83E5BFB3AEFF506B /* Pods-Viajando-ViajandoUITests.debug.xcconfig */,
+				DC8787E4FA1AE9CE2418016D5C0CF206 /* Pods-Viajando-ViajandoUITests.release.xcconfig */,
 			);
-			name = "Pods-Viajando";
-			path = "Target Support Files/Pods-Viajando";
+			name = "Pods-Viajando-ViajandoUITests";
+			path = "Target Support Files/Pods-Viajando-ViajandoUITests";
 			sourceTree = "<group>";
 		};
-		B135C503FAADEEB2D467253F4B148EF7 /* Products */ = {
+		9B380475E62A297BCCCB1EF9F3672FA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0D00DC41EA8D30AE0DC70BE99CC92041 /* HorizontalCalendar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA079A9A7E16A4C7368C0CB85CD4AF43 /* Pods-ViajandoTests */ = {
+			isa = PBXGroup;
+			children = (
+				97949379DB432919368D82DAFCD0AE77 /* Pods-ViajandoTests.modulemap */,
+				7DC281456389D811D55FD19ED64FD478 /* Pods-ViajandoTests-acknowledgements.markdown */,
+				962DF09D7A541DE9864A261231017C21 /* Pods-ViajandoTests-acknowledgements.plist */,
+				F3BAFD0DCAA05E84FEF1A876B10AB8ED /* Pods-ViajandoTests-dummy.m */,
+				99D388513E67C4218D77FEDFC641988B /* Pods-ViajandoTests-Info.plist */,
+				CAE8EDEB6649B9B9FA13994B11B2A118 /* Pods-ViajandoTests-umbrella.h */,
+				442F488BE5F81FAD1B5FB52ECB78521A /* Pods-ViajandoTests.debug.xcconfig */,
+				C8DA5C29EE3DF0FCABE7F93FE8819527 /* Pods-ViajandoTests.release.xcconfig */,
+			);
+			name = "Pods-ViajandoTests";
+			path = "Target Support Files/Pods-ViajandoTests";
+			sourceTree = "<group>";
+		};
+		BF15028F35A6613449BB903531D56E4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC30613FD35E4F6BB1FA90C4EA6D8FA /* Pods-Viajando */,
+				834BC222C8128F33763229F25AE93A11 /* Pods-Viajando-ViajandoUITests */,
+				AA079A9A7E16A4C7368C0CB85CD4AF43 /* Pods-ViajandoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C79C5043C2B5D0C98CD8AC761B6EE562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916826EB77264A041C3731CCCA399FB7 /* HorizontalCalendar.framework */,
 				784AFD25EFBFD5CE30418870010AEF96 /* Pods-Viajando */,
 				5FC8AE0A4B138B11EFB6F06F8781BCC2 /* Pods-Viajando-ViajandoUITests */,
 				9021A40B6A4F80CB4544C87248E00DC5 /* Pods-ViajandoTests */,
@@ -154,13 +210,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CC01AB9E722282DD34B26E054276C159 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				064F1FEC294C68B9D0458CE8EBC34DC6 /* HorizontalCalendar.modulemap */,
+				B97E18AE4B07521824F2AC5D7ECBFB55 /* HorizontalCalendar-dummy.m */,
+				6C3D782AD6A03DCA7DD15C809F279537 /* HorizontalCalendar-Info.plist */,
+				C51F0C9DA00217308BBA42ABCF1F4CA7 /* HorizontalCalendar-prefix.pch */,
+				48B2ABEDC7AED4CE558E8A3AFCA8762A /* HorizontalCalendar-umbrella.h */,
+				5D3425C7C7A5B49C81FC7CAAF129C3EB /* HorizontalCalendar.debug.xcconfig */,
+				C34D8E4F7DA73BB82C1A01567FE33735 /* HorizontalCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HorizontalCalendar";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B135C503FAADEEB2D467253F4B148EF7 /* Products */,
-				FC9B257ED2FCFF281986173490B20398 /* Targets Support Files */,
+				9B380475E62A297BCCCB1EF9F3672FA0 /* Pods */,
+				C79C5043C2B5D0C98CD8AC761B6EE562 /* Products */,
+				BF15028F35A6613449BB903531D56E4B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,14 +244,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC9B257ED2FCFF281986173490B20398 /* Targets Support Files */ = {
+		EDC30613FD35E4F6BB1FA90C4EA6D8FA /* Pods-Viajando */ = {
 			isa = PBXGroup;
 			children = (
-				7A15BF8BBD7B0C130DC1463CAAABA9C6 /* Pods-Viajando */,
-				191F96B7DBE54CE16844660C736D58E0 /* Pods-Viajando-ViajandoUITests */,
-				4F6292E1D814B1B52D858B8CD3E3E96B /* Pods-ViajandoTests */,
+				EFB485FFC0FA725294295E0C8D010C8F /* Pods-Viajando.modulemap */,
+				D97C39D7C840F5774C3615CA231F23ED /* Pods-Viajando-acknowledgements.markdown */,
+				FF0C9B392F44839D001A8BA9E19F8564 /* Pods-Viajando-acknowledgements.plist */,
+				B08CA512472DD108BEF1941E791CD2B8 /* Pods-Viajando-dummy.m */,
+				FF8665B368C789B4F5E7F95C43268056 /* Pods-Viajando-frameworks.sh */,
+				529F5D17590F697CF842CB44D6EBA419 /* Pods-Viajando-Info.plist */,
+				E5A6B3965148779DB8CF6302B4B58E99 /* Pods-Viajando-umbrella.h */,
+				0C3F7014D00712221DE63EE94AAA63EE /* Pods-Viajando.debug.xcconfig */,
+				BC3A3648C64E9C986765537863FB9630 /* Pods-Viajando.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Viajando";
+			path = "Target Support Files/Pods-Viajando";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,25 +272,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12A4A688EACAC6EDADE45EF619280F14 /* Headers */ = {
+		20163BE2D66976D925193E4338AA2513 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A23F36F7CC6E60AE13219D2B8877F5B /* Pods-Viajando-ViajandoUITests-umbrella.h in Headers */,
+				7345433EC136A949D5EA302EEFD86E62 /* Pods-Viajando-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		603E1F7E07BF5F45DBAA3D7D62150F56 /* Headers */ = {
+		3EDD78AB8522EA6EBB03218E30DA8CB7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C3996C3CDAF737B9E5EF989060A8826 /* Pods-Viajando-umbrella.h in Headers */,
+				42530E5867EA0469CC4B0038766C274D /* Pods-Viajando-ViajandoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B69D69792139F142BEAB3C2E3E8AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EEF52D610219736D7A5A41463E0453 /* HorizontalCalendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2158B2189AB84ABBBE2381FBBF859B26 /* HorizontalCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8918DC9AD4BD926C10DE161FAADC17A /* Build configuration list for PBXNativeTarget "HorizontalCalendar" */;
+			buildPhases = (
+				F33B69D69792139F142BEAB3C2E3E8AB /* Headers */,
+				61CA7BD8098729C73B2CD9D118FC44B3 /* Sources */,
+				92849B0A859536FD09645D318BD715D8 /* Frameworks */,
+				E8EB84E09D0C674A46939973D5717242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalCalendar;
+			productName = HorizontalCalendar;
+			productReference = 916826EB77264A041C3731CCCA399FB7 /* HorizontalCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5F3BDEB698BBD1A07070191B7F47AEE2 /* Pods-ViajandoTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB142725DEBEEBB51C8203BB28D41A4E /* Build configuration list for PBXNativeTarget "Pods-ViajandoTests" */;
@@ -224,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				325457FFD0C05F0B8B9DACEC8E652356 /* PBXTargetDependency */,
+				E7A2B8D19EE3EF796E690D6DF00EF345 /* PBXTargetDependency */,
 			);
 			name = "Pods-ViajandoTests";
 			productName = Pods_ViajandoTests;
@@ -233,16 +338,17 @@
 		};
 		89C25EA9BBB501F88C2508ED3AF0279A /* Pods-Viajando */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04BB7A0CD7355E3F64A5C6A63184D6FC /* Build configuration list for PBXNativeTarget "Pods-Viajando" */;
+			buildConfigurationList = 09B122E01A581D458149E4AFBF3EC735 /* Build configuration list for PBXNativeTarget "Pods-Viajando" */;
 			buildPhases = (
-				603E1F7E07BF5F45DBAA3D7D62150F56 /* Headers */,
-				EAF77C16F6B85894B22DD3EC553BBAFC /* Sources */,
-				78C0091646566F194121AEB6B1D42ADD /* Frameworks */,
-				B42D24C5EEC5CF89E1F89B500B7A8D46 /* Resources */,
+				20163BE2D66976D925193E4338AA2513 /* Headers */,
+				15EEBBB0E06DAAF3CADCDD6FCE8648E3 /* Sources */,
+				2A804CE99908F41E353D75BDE8C6FFB9 /* Frameworks */,
+				A573FAE960B290268041F3AED4EA6608 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				57015633C972B9F1F4D1B27E1A22B337 /* PBXTargetDependency */,
 			);
 			name = "Pods-Viajando";
 			productName = Pods_Viajando;
@@ -251,16 +357,17 @@
 		};
 		ED8199A50C2D2874E3D9FA8C5D811F1F /* Pods-Viajando-ViajandoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E58439F118312EC9110FCE89F448944 /* Build configuration list for PBXNativeTarget "Pods-Viajando-ViajandoUITests" */;
+			buildConfigurationList = DD5C95C5252692920EC569EF90FFDD12 /* Build configuration list for PBXNativeTarget "Pods-Viajando-ViajandoUITests" */;
 			buildPhases = (
-				12A4A688EACAC6EDADE45EF619280F14 /* Headers */,
-				7063E8DA71CB462DE59A582D3C4988E7 /* Sources */,
-				B6950F0B1067E02B38B5185EFF62212E /* Frameworks */,
-				70DDEDB5F6D3E81EC73EE1BD25E1874E /* Resources */,
+				3EDD78AB8522EA6EBB03218E30DA8CB7 /* Headers */,
+				CF3DD377CD0EF80F8B8860A39F431F03 /* Sources */,
+				0A80908711002E1EB1976919D623D816 /* Frameworks */,
+				524AE18B115DC8C6F14233048CF0427C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7FC22C3A0568B8A7060595934D4486D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Viajando-ViajandoUITests";
 			productName = Pods_Viajando_ViajandoUITests;
@@ -274,7 +381,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -285,10 +392,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B135C503FAADEEB2D467253F4B148EF7 /* Products */;
+			productRefGroup = C79C5043C2B5D0C98CD8AC761B6EE562 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				2158B2189AB84ABBBE2381FBBF859B26 /* HorizontalCalendar */,
 				89C25EA9BBB501F88C2508ED3AF0279A /* Pods-Viajando */,
 				ED8199A50C2D2874E3D9FA8C5D811F1F /* Pods-Viajando-ViajandoUITests */,
 				5F3BDEB698BBD1A07070191B7F47AEE2 /* Pods-ViajandoTests */,
@@ -297,6 +405,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		524AE18B115DC8C6F14233048CF0427C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607C3D5DC6326BE8E245EAFF37A1B61F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,14 +419,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70DDEDB5F6D3E81EC73EE1BD25E1874E /* Resources */ = {
+		A573FAE960B290268041F3AED4EA6608 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B42D24C5EEC5CF89E1F89B500B7A8D46 /* Resources */ = {
+		E8EB84E09D0C674A46939973D5717242 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,30 +444,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7063E8DA71CB462DE59A582D3C4988E7 /* Sources */ = {
+		15EEBBB0E06DAAF3CADCDD6FCE8648E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19497326210AA3A73C541D64E3D92A4E /* Pods-Viajando-ViajandoUITests-dummy.m in Sources */,
+				1BF36747683DF7B614FE627D61F1F579 /* Pods-Viajando-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAF77C16F6B85894B22DD3EC553BBAFC /* Sources */ = {
+		61CA7BD8098729C73B2CD9D118FC44B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40CAAC9E3A856386171E464CD90C2BF /* Pods-Viajando-dummy.m in Sources */,
+				BFC95D3CDF85CD2AEAC434A2DEEFABDC /* Date+Extension.swift in Sources */,
+				9C67DC0C3CD34FDA006D57022EFB3E78 /* HorizontalCalendar.swift in Sources */,
+				724C849F0A2FF918C8203E27D201B211 /* HorizontalCalendar-dummy.m in Sources */,
+				0C26462A2C05F524EC2FC036F40FDDFF /* UIView+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DD377CD0EF80F8B8860A39F431F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13CC639BB15533C3663F66D4AE30438 /* Pods-Viajando-ViajandoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		325457FFD0C05F0B8B9DACEC8E652356 /* PBXTargetDependency */ = {
+		57015633C972B9F1F4D1B27E1A22B337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HorizontalCalendar;
+			target = 2158B2189AB84ABBBE2381FBBF859B26 /* HorizontalCalendar */;
+			targetProxy = 32CD827AAA1210F41D2BAF65721B8FA4 /* PBXContainerItemProxy */;
+		};
+		7FC22C3A0568B8A7060595934D4486D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HorizontalCalendar;
+			target = 2158B2189AB84ABBBE2381FBBF859B26 /* HorizontalCalendar */;
+			targetProxy = 7D6F8336D9EE324D91A04E61E710552A /* PBXContainerItemProxy */;
+		};
+		E7A2B8D19EE3EF796E690D6DF00EF345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Viajando";
 			target = 89C25EA9BBB501F88C2508ED3AF0279A /* Pods-Viajando */;
-			targetProxy = 802592750712CD617BC4DCDD29ED73CE /* PBXContainerItemProxy */;
+			targetProxy = F467C433EAECBD0BEDA451C4CE8012A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,9 +623,9 @@
 			};
 			name = Release;
 		};
-		660AFEEBAD9846A3AD74366B8ED5F950 /* Debug */ = {
+		345510091B3DFF4725F2DB48D701BA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67B90838F74A098506E4AF8573D8915E /* Pods-Viajando.debug.xcconfig */;
+			baseConfigurationReference = 19F1A395398CA80D83E5BFB3AEFF506B /* Pods-Viajando-ViajandoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -499,7 +637,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Viajando/Pods-Viajando-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,7 +646,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Viajando/Pods-Viajando.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -522,9 +660,9 @@
 			};
 			name = Debug;
 		};
-		6662F03565FCA67994A4088F4EA66C9F /* Release */ = {
+		6E9232A193F873B6406BDF4DA4B7BA03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942385A89EC369CBC0E7D2F5A2AA0AAB /* Pods-Viajando.release.xcconfig */;
+			baseConfigurationReference = BC3A3648C64E9C986765537863FB9630 /* Pods-Viajando.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -560,9 +698,82 @@
 			};
 			name = Release;
 		};
+		775B5737423941A1F293BE5B275792E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3F7014D00712221DE63EE94AAA63EE /* Pods-Viajando.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viajando/Pods-Viajando-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viajando/Pods-Viajando.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9225F494D9886D5944117D2F403A5090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34D8E4F7DA73BB82C1A01567FE33735 /* HorizontalCalendar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalCalendar/HorizontalCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalCalendar/HorizontalCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HorizontalCalendar/HorizontalCalendar.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalCalendar;
+				PRODUCT_NAME = HorizontalCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9562BFC6D84FACCDEF3FB8406EF55859 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3A71B359781D6DFC9560AA80F27BC5 /* Pods-ViajandoTests.debug.xcconfig */;
+			baseConfigurationReference = 442F488BE5F81FAD1B5FB52ECB78521A /* Pods-ViajandoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -599,7 +810,7 @@
 		};
 		A4A060592EDC3D857B912D4CAB49FD22 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACDF2986113A16716AD80E45454921C9 /* Pods-ViajandoTests.release.xcconfig */;
+			baseConfigurationReference = C8DA5C29EE3DF0FCABE7F93FE8819527 /* Pods-ViajandoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -635,11 +846,10 @@
 			};
 			name = Release;
 		};
-		B27A19D819A48E0A1A3B519A66D541FA /* Debug */ = {
+		C408A93711C85F46C0FADAA6C754EA21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85AF220E76CB2970E2099BAE8F616497 /* Pods-Viajando-ViajandoUITests.debug.xcconfig */;
+			baseConfigurationReference = 5D3425C7C7A5B49C81FC7CAAF129C3EB /* HorizontalCalendar.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -649,32 +859,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalCalendar/HorizontalCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalCalendar/HorizontalCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Viajando-ViajandoUITests/Pods-Viajando-ViajandoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/HorizontalCalendar/HorizontalCalendar.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalCalendar;
+				PRODUCT_NAME = HorizontalCalendar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		CC992832FB400670F78B43C1B290D136 /* Release */ = {
+		F88BEFE90EE29251471B93583C2E8E55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32DD08692FF4F6119731E9A07253CF05 /* Pods-Viajando-ViajandoUITests.release.xcconfig */;
+			baseConfigurationReference = DC8787E4FA1AE9CE2418016D5C0CF206 /* Pods-Viajando-ViajandoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -713,11 +922,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04BB7A0CD7355E3F64A5C6A63184D6FC /* Build configuration list for PBXNativeTarget "Pods-Viajando" */ = {
+		09B122E01A581D458149E4AFBF3EC735 /* Build configuration list for PBXNativeTarget "Pods-Viajando" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				660AFEEBAD9846A3AD74366B8ED5F950 /* Debug */,
-				6662F03565FCA67994A4088F4EA66C9F /* Release */,
+				775B5737423941A1F293BE5B275792E6 /* Debug */,
+				6E9232A193F873B6406BDF4DA4B7BA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,11 +940,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E58439F118312EC9110FCE89F448944 /* Build configuration list for PBXNativeTarget "Pods-Viajando-ViajandoUITests" */ = {
+		A8918DC9AD4BD926C10DE161FAADC17A /* Build configuration list for PBXNativeTarget "HorizontalCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B27A19D819A48E0A1A3B519A66D541FA /* Debug */,
-				CC992832FB400670F78B43C1B290D136 /* Release */,
+				C408A93711C85F46C0FADAA6C754EA21 /* Debug */,
+				9225F494D9886D5944117D2F403A5090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,6 +954,15 @@
 			buildConfigurations = (
 				9562BFC6D84FACCDEF3FB8406EF55859 /* Debug */,
 				A4A060592EDC3D857B912D4CAB49FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5C95C5252692920EC569EF90FFDD12 /* Build configuration list for PBXNativeTarget "Pods-Viajando-ViajandoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345510091B3DFF4725F2DB48D701BA63 /* Debug */,
+				F88BEFE90EE29251471B93583C2E8E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
